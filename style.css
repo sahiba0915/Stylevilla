@@ -119,7 +119,7 @@ section {
 .header .header-1 .search-form {
   width: 50rem;
   height: 5rem;
-  border: var(--border);
+  border: 1px solid var(--border);
   overflow: hidden;
   background: var(--bg-color);
   display: flex;
