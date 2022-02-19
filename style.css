@@ -83,7 +83,7 @@ section {
   display: inline-block;
   padding: 0.9rem 3rem;
   border-radius: 0.5rem;
-  color: #fff;
+  color: var(--bg-color);
   background: var(--pink);
   font-size: 1.7rem;
   cursor: pointer;
@@ -95,7 +95,7 @@ section {
 }
 
 .header .header-1 {
-  background: #fff;
+  background: var(--bg-color);
   padding: 1.5rem 9%;
   display: flex;
   align-items: center;
@@ -117,7 +117,7 @@ section {
   height: 5rem;
   border: var(--border);
   overflow: hidden;
-  background: #fff;
+  background: var(--bg-color);
   display: flex;
   align-items: center;
   border-radius: 0.5rem;
@@ -169,7 +169,7 @@ section {
 }
 
 .header .navbar a {
-  color: #fff;
+  color: var(--bg-color);
   display: inline-block;
   padding: 1.2rem;
   font-size: 1.7rem;
@@ -212,7 +212,7 @@ section {
   height: auto;
   padding: 2rem;
   text-align: center;
-  background: #fff;
+  background: var(--bg-color);
 }
 
 .arrival .box-container .box .image img {
@@ -294,13 +294,13 @@ section {
 
 .deal .box-container .box .content h3 {
   font-size: 3.5rem;
-  color: #fff;
+  color: var(--bg-color);
   text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.3);
 }
 
 .deal .box-container .box .content p {
   font-size: 2rem;
-  color: #fff;
+  color: var(--bg-color);
 }
 
 .deal .box-container .box .content .btn {
