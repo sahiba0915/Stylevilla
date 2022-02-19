@@ -1,0 +1,136 @@
+@import url("/css/wishlist.css");
+@import url("/style.css");
+
+.main-content {
+  display: grid;
+  margin: 0;
+  color: var(--secondary-color);
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  background-color: #f7f7f7;
+  color: black;
+}
+
+/* Sidenav */
+
+.side-nav {
+  background-color: var(--bg-color);
+  padding: 0 1.5rem 0 1.5rem;
+  color: black;
+  font-size: 1.2rem;
+  margin-top: 8rem;
+}
+
+.nav-heading div {
+  display: inline-block;
+}
+
+.filter,
+.clear {
+  font-size: 1.5rem;
+}
+
+.nav-heading .filter {
+  font-weight: 700;
+}
+
+.nav-heading .clear {
+  float: right;
+  text-decoration: underline;
+  cursor: pointer;
+  font-weight: 400;
+}
+
+.nav-heading .clear:hover {
+  color: var(--btn-color);
+}
+
+.side-nav .nav-heading {
+  margin-top: 2rem;
+}
+
+datalist {
+  display: flex;
+  justify-content: space-between;
+}
+
+.slider input {
+  width: 100%;
+}
+
+.slider,
+.category,
+.ratings,
+.sort {
+  margin-top: 1.5rem;
+}
+
+.side-nav .title {
+  margin-bottom: 5px;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.side-nav input {
+  margin-right: 5px;
+}
+/* Product container */
+.main-container {
+  margin: 5rem;
+}
+
+.head {
+  margin-left: 2rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.head small {
+  font-size: 1rem;
+  padding-left: 3rem;
+  color: var(--default-color);
+}
+
+.info {
+  margin-bottom: 2rem;
+}
+
+.product-card {
+  margin-bottom: 2rem;
+  border: 0.1rem solid rgba(0, 0, 0, 0.3);
+  border-radius: 0.5rem;
+}
+
+.product-card .img-container {
+  border-radius: 0;
+}
+
+.product-card .img-container img {
+  width: 100%;
+  height: 25vh;
+  position: relative;
+  overflow: hidden;
+}
+
+/* media-queries */
+
+@media (max-width: 835px) {
+  .main-content {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+  }
+}
+
+@media (max-width: 625px) {
+  .main-content {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-template-rows: 1fr;
+  }
+  .side-nav {
+    font-size: 2rem;
+  }
+}
