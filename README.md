@@ -22,6 +22,6 @@ This section helps you to proceed with your purchase.
 This section is basically there to help you store the products you love and wish to buy them in future.
 
 ## How the UI looks?
-![Stylevilla](https://user-images.githubusercontent.com/56750857/154842278-4a647a4a-546f-449c-88a8-b3cdffd1e265.png)
+![Stylevilla](https://github.com/sahiba0915/Stylevilla/blob/dev/StyleVilla.gif)
 
 
